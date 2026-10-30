@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090914">
+  <meta name="description" content="NOXN AI LOGO - استوديو التصميم بالذكاء الاصطناعي">
+  <title>NOXN AI LOGO | استوديو التصميم الذكي</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">N</span><span>NOXN <b>AI LOGO</b><small>CREATIVE INTELLIGENCE</small></span></a>
+    <nav><a href="#studio">الاستوديو</a><a href="#tools">الأدوات</a><a href="#gallery">معرضي</a></nav>
+    <button class="top-cta" id="goStudio">ابدأ التصميم <span>↗</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> الجيل الجديد من الإبداع</div>
+        <h1>فكرتك تتحول إلى<br><span>تصميم استثنائي.</span></h1>
+        <p>استوديو إبداعي يعمل بالذكاء الاصطناعي لصناعة الشعارات وأيقونات التطبيقات والصور والملصقات، دون الحاجة إلى خبرة في التصميم.</p>
+        <div class="hero-actions"><button class="primary-btn" id="heroStart">ابدأ الإنشاء الآن <b>✦</b></button><a class="text-link" href="#tools">اكتشف الأدوات <span>←</span></a></div>
+        <div class="hero-stats"><div><strong>∞</strong><small>أفكار بلا حدود</small></div><div><strong>AI</strong><small>تصميم ذكي</small></div><div><strong>HD</strong><small>تنزيل بجودة عالية</small></div></div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="art-card card-back"><span>✦</span><small>CREATIVE</small></div>
+        <div class="art-card card-main"><div class="n-symbol">N<span>✦</span></div><div class="art-label">NOXN / DESIGN LAB</div><div class="art-lines"></div></div>
+        <div class="float-tag tag-top">✧ AI GENERATED</div><div class="float-tag tag-bottom">تصميم بلا حدود</div>
+      </div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="section-head"><div><div class="eyebrow">أدوات الاستوديو</div><h2>كل أدواتك الإبداعية <span>في مكان واحد</span></h2></div><p>اختر الأداة، اكتب فكرتك، واترك الباقي للذكاء الاصطناعي.</p></div>
+      <div class="tool-grid">
+        <button class="tool-card active" data-tool="logo"><span class="tool-icon purple">✦</span><b>مصمم الشعارات</b><small>شعارات وهوية بصرية احترافية</small><em>LOGO DESIGN</em></button>
+        <button class="tool-card" data-tool="icon"><span class="tool-icon cyan">▣</span><b>أيقونات التطبيقات</b><small>أيقونات Android و iOS</small><em>APP ICON</em></button>
+        <button class="tool-card" data-tool="image"><span class="tool-icon pink">◈</span><b>مولّد الصور</b><small>صور فنية من وصفك</small><em>AI IMAGE</em></button>
+        <button class="tool-card" data-tool="poster"><span class="tool-icon orange">▤</span><b>الملصقات</b><small>بوسترات إعلانية وإبداعية</small><em>POSTER</em></button>
+        <button class="tool-card" data-tool="banner"><span class="tool-icon green">▱</span><b>البنرات</b><small>تصاميم المواقع والسوشيال</small><em>BANNER</em></button>
+        <button class="tool-card" data-tool="product"><span class="tool-icon blue">◇</span><b>صور المنتجات</b><small>عرض منتجات بأسلوب تجاري</small><em>PRODUCT</em></button>
+        <button class="tool-card" data-tool="background"><span class="tool-icon violet">▧</span><b>الخلفيات</b><small>خلفيات رقمية مميزة</small><em>BACKGROUND</em></button>
+        <button class="tool-card" data-tool="edit"><span class="tool-icon gold">✎</span><b>مساعد التصميم</b><small>إنشاء نسخة محسّنة من فكرتك</small><em>DESIGN ASSIST</em></button>
+      </div>
+    </section>
+
+    <section class="studio-section" id="studio">
+      <div class="section-head"><div><div class="eyebrow">ابدأ من هنا</div><h2>مختبر <span>NOXN AI</span></h2></div><span class="live-pill"><i></i> جاهز للإبداع</span></div>
+      <div class="studio-panel">
+        <div class="form-panel">
+          <label class="field-label">الأداة المختارة</label>
+          <div class="selected-tool"><span id="selectedIcon">✦</span><div><b id="selectedName">مصمم الشعارات</b><small id="selectedDesc">أنشئ شعاراً يعبر عن هويتك</small></div></div>
+          <label class="field-label" for="prompt">صف التصميم الذي تتخيله</label>
+          <textarea id="prompt" rows="5" placeholder="مثال: شعار احترافي لتطبيق ألعاب باسم NOXN، بأسلوب مستقبلي ثلاثي الأبعاد، ألوان بنفسجية وسماوية متوهجة، خلفية داكنة..."></textarea>
+          <div class="prompt-hint"><span>✧ كن واضحاً في وصف فكرتك</span><span id="count">0 / 900</span></div>
+          <div class="field-row">
+            <div><label class="field-label" for="style">الأسلوب</label><select id="style"><option>مستقبلي نيون</option><option>ثلاثي الأبعاد 3D</option><option>بسيط وأنيق</option><option>فاخر واحترافي</option><option>كرتوني وإبداعي</option><option>واقعي سينمائي</option></select></div>
+            <div><label class="field-label" for="quality">الجودة</label><select id="quality"><option value="medium">متوسطة</option><option value="high">عالية</option><option value="low">سريعة</option></select></div>
+          </div>
+          <label class="field-label" for="ratio">أبعاد الصورة</label>
+          <select id="ratio"><option value="1024x1024">مربع 1:1</option><option value="1536x1024">أفقي 3:2</option><option value="1024x1536">عمودي 2:3</option></select>
+          <button class="generate-btn" id="generate"><span>✦</span> توليد التصميم بالذكاء الاصطناعي</button>
+          <p class="privacy-note">🔒 مفتاح الذكاء الاصطناعي محفوظ على الخادم وليس في متصفحك.</p>
+        </div>
+        <div class="preview-panel">
+          <div class="preview-top"><b>مساحة العمل</b><span id="previewStatus">بانتظار فكرتك</span></div>
+          <div class="preview-stage" id="preview">
+            <div class="preview-placeholder"><div class="sparkle">✧</div><b>هنا تبدأ أفكارك بالظهور</b><p>اكتب وصفك واضغط على زر التوليد لابتكار تصميمك الأول.</p></div>
+          </div>
+          <div class="result-actions" id="resultActions" hidden><button id="download">تنزيل الصورة ↓</button><button id="save">حفظ في معرضي ♡</button></div>
+          <div class="preview-foot"><span>NOXN AI CREATIVE ENGINE</span><span>PNG / HD</span></div>
+        </div>
+      </div>
+      <div class="notice" id="notice" role="status">للتفعيل: أضف مفتاح OpenAI API في إعدادات Netlify بعد نشر المشروع. لن يعمل التوليد قبل ذلك.</div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-head"><div><div class="eyebrow">إبداعاتك المحفوظة</div><h2>معرض <span>أعمالي</span></h2></div><button class="clear-btn" id="clearGallery">مسح المعرض</button></div>
+      <div class="gallery-grid" id="galleryGrid"><div class="empty-gallery">لم تحفظ أي تصميم بعد. ابدأ الإبداع الآن ✦</div></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#"><span class="brand-mark">N</span><span>NOXN <b>AI LOGO</b><small>CREATIVE INTELLIGENCE</small></span></a><p>اصنع ما تتخيله. <span>© 2026 NOXN AI LOGO</span></p></footer>
+  <script src="app.js"></script>
+</body>
+</html>
